@@ -10,13 +10,14 @@ package com.example.kotlinretos
 fun main() {
     var a :Long = 0 //Se definen como Long para que los ultimos numeros de la serie fibonacci no arrojen numeros erroneos
     var b :Long = 1 //Se definen como Long para que los ultimos numeros de la serie fibonacci no arrojen numeros erroneos
-    var x = 0
-    while (x<49) {
-        var c = a + b
+    var x = 1
+    while (x<50) {
+        val c = a + b
+        println(c)
         a = b
         b = c
         x++
-        println(c)
+
     }
 }
 
