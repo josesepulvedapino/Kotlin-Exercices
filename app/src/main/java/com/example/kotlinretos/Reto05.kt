@@ -6,7 +6,7 @@ package com.example.kotlinretos
  */
 
 fun main() {
-    vocal("")
+    vocal("Zapato")
 }
 
 fun vocal(text: String) {
