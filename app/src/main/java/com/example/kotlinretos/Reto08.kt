@@ -19,7 +19,7 @@ In the body of getFortuneCookie(), create a list of fortunes. Here are some idea
  */
 
 fun main() {
-    val fish: Int = 2 + 71 + 233 - 13
+    val fish: Int = 2
     val aquarium = fish/30
     println("We have $fish fishes and $aquarium aquarium")
     var rainbowColor: String? = "blue"
@@ -102,5 +102,20 @@ fun main() {
         if (number % 7 == 0 ) myDiv7List.add(number)
     }
     println(myDiv7List)
+
+    if (fish in 1..100) println(fish)
+
+    var mut = listOf("hola",2)
+    mut = listOf("s",5)
+
+    var mut2 = mutableListOf("hola",2)
+    mut2 = mutableListOf("s",5)
+
+
+    fun randomDay(): String {return "Monday"}
+
+    randomDay()
 }
+
+
 
