@@ -94,7 +94,8 @@ fun main() {
     }
 
     /*
-    How can you use a for loop to create (a list of) the numbers between 0 and 100 that are divisible by 7?
+    How can you use a for loop to create (a list of) the numbers between 0 and 100 that are divisible by 7?.
+
      */
     var myDiv7List = mutableListOf<Int>()
     for (number in 1..100) {
