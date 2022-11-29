@@ -20,7 +20,7 @@ fun main(args: Array<String>) {
         6 -> day = "Friday"
         7 -> day = "Saturday"
     }
-    println("Today is $day")
+    println("Today is $day").
 }
 
  */
